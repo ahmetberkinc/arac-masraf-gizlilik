@@ -26,17 +26,18 @@ th { color: var(--muted); font-weight: 600; }
 <body>
 <main>
 <h1>Araç Masraf — Gizlilik Politikası</h1>
-<p>Son güncelleme: 30 Eylül 2026</p>
+<p>Son güncelleme: 1 Ekim 2026</p>
 <p>Bu politika, Araç Masraf mobil uygulamasının ("Uygulama") kişisel verileri nasıl işlediğini açıklar. Veri sorumlusu Ahmet Berk İnçoğlu'dur. Metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'na ("KVKK") göre hazırlanmıştır.</p>
 <p>İletişim: <a href="mailto:ahmetberkincoglu@gmail.com">ahmetberkincoglu@gmail.com</a></p>
 <h2>1. Özet</h2>
-<ul><li>Uygulama hesap açmanı istemez.</li><li>Girdiğin araç, yakıt ve masraf kayıtları <strong>yalnızca kendi telefonunda</strong> saklanır. Bu kayıtlar bize veya başka bir sunucuya gönderilmez.</li><li>Ücretsiz sürüm reklam gösterir. Reklam sağlayıcı (Google AdMob), senin onay tercihine göre cihaz verilerini işleyebilir.</li></ul>
+<ul><li>Uygulama hesap açmanı istemez.</li><li>Girdiğin araç, yakıt ve masraf kayıtları <strong>kendi telefonunda</strong> saklanır. Bu kayıtlar bize veya bizim yönettiğimiz bir sunucuya gönderilmez.</li><li>Uygulamanın nasıl kullanıldığına dair anonim istatistikler toplanır (hangi ekranın açıldığı gibi). Girdiğin tutar, km, araç adı ve notlar bu istatistiklere dahil değildir.</li><li>Ücretsiz sürüm reklam gösterir. Reklam sağlayıcı (Google AdMob), senin onay tercihine göre cihaz verilerini işleyebilir.</li></ul>
 <h2>2. Telefonunda saklanan veriler</h2>
 <p>Uygulamaya girdiğin veriler cihazındaki yerel veritabanında tutulur:</p>
 <ul><li>araç adı ve yakıt sistemi,</li><li>yakıt alımları (tarih, km, litre, tutar, istasyon, not),</li><li>masraflar (tarih, kategori, tutar, not).</li></ul>
-<p>Bu verilere biz erişemeyiz. Uygulamayı silersen bu veriler de silinir.</p>
+<p>Bu verilere biz erişemeyiz. Uygulamayı silersen bu veriler telefonundan silinir.</p>
 <h2>3. Yedekleme</h2>
 <p>"Yedeği dışa aktar" seçeneği verilerini bir dosyaya yazar. Bu dosyayı nereye kaydedeceğine (Google Drive, e-posta vb.) sen karar verirsin. Dosyayı hangi hizmete kaydettiysen, o hizmetin kendi gizlilik politikası geçerlidir.</p>
+<p>Telefonunda Android'in "Google One ile yedekleme" özelliği açıksa, uygulama verileri de cihaz yedeğinin parçası olarak kendi Google hesabına yedeklenebilir ve uygulamayı yeniden kurduğunda geri gelebilir. Bu yedek Google tarafından yönetilir; biz erişemeyiz. Telefonunun ayarlarından kapatabilirsin.</p>
 <h2>4. Üçüncü taraf hizmetler</h2>
 <h3>4.1 Google AdMob (reklam, yalnızca ücretsiz sürümde)</h3>
 <p>AdMob reklam göstermek için şu verileri işleyebilir:</p>
@@ -47,13 +48,21 @@ th { color: var(--muted); font-weight: 600; }
 <ul><li>rastgele oluşturulmuş anonim bir kullanıcı kimliği,</li><li>satın alma kaydı.</li></ul>
 <p>Ayrıntılar: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
 <h3>4.3 Firebase Crashlytics (çökme raporları)</h3>
-<p>Uygulama çöktüğünde hatayı düzeltebilmemiz için şu bilgiler Google Firebase'e gönderilir:</p>
-<ul><li>cihaz modeli,</li><li>işletim sistemi sürümü,</li><li>hata ayrıntıları.</li></ul>
+<p>Uygulama çöktüğünde veya bir işlem hata verdiğinde (örneğin yedek alınamadığında) hatayı düzeltebilmemiz için şu bilgiler Google Firebase'e gönderilir:</p>
+<ul><li>cihaz modeli,</li><li>işletim sistemi sürümü,</li><li>hata ayrıntıları,</li><li>hatadan önce açılan ekranların ve yapılan işlemlerin adları (örneğin "yakıt ekranı açıldı"),</li><li>Pro kullanıp kullanmadığın, araç sayın ve aracının yakıt sistemi.</li></ul>
 <p>Bu raporlar girdiğin araç ve masraf kayıtlarını içermez. Ayrıntılar: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
+<h3>4.4 Firebase Analytics (kullanım istatistikleri)</h3>
+<p>Uygulamayı geliştirebilmemiz için anonim kullanım istatistikleri Google Firebase'e gönderilir:</p>
+<ul><li>hangi ekranların açıldığı,</li><li>hangi işlemin yapıldığı (örneğin "yakıt kaydı eklendi", yakıt türü, masraf kategorisi, "yedek alındı", "Pro ekranı açıldı", "reklam gösterildi"),</li><li>Pro kullanıp kullanmadığın, araç sayın ve aracının yakıt sistemi,</li><li>rastgele oluşturulmuş bir uygulama kimliği, cihaz modeli, işletim sistemi sürümü ve ülke.</li></ul>
+<p>Girdiğin tutarlar, kilometre, litre, araç adı, istasyon ve notlar gönderilmez. Bu istatistikler için reklam kimliği toplanmaz ve veriler reklam kişiselleştirmede kullanılmaz. Ayrıntılar: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
+<h3>4.5 Sentry (hata raporları)</h3>
+<p>Uygulamada bir işlem hata verdiğinde hatanın kodda tam olarak nerede oluştuğunu görebilmemiz için aynı hata bilgileri Sentry'ye (Functional Software, Inc.) de gönderilir:</p>
+<ul><li>cihaz modeli ve işletim sistemi sürümü,</li><li>hata ayrıntıları,</li><li>hatadan önce açılan ekranların ve yapılan işlemlerin adları,</li><li>Pro kullanıp kullanmadığın, araç sayın ve aracının yakıt sistemi.</li></ul>
+<p>Bu raporlar girdiğin araç ve masraf kayıtlarını içermez; IP adresin raporla birlikte saklanmaz. Ayrıntılar: <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a></p>
 <h2>5. Verilerin işlenme amacı ve hukuki sebebi</h2>
-<div class="table"><table><thead><tr><th>Veri</th><th>Amaç</th><th>Hukuki sebep (KVKK md. 5)</th></tr></thead><tbody><tr><td>Reklam verileri</td><td>Ücretsiz sürümün finansmanı</td><td>Açık rıza (onay formu, bulunduğun ülkede gerekiyorsa) veya meşru menfaat</td></tr><tr><td>Satın alma kaydı</td><td>Pro hakkının tanınması ve geri yüklenmesi</td><td>Sözleşmenin ifası</td></tr><tr><td>Çökme raporları</td><td>Hataların giderilmesi</td><td>Meşru menfaat</td></tr></tbody></table></div>
+<div class="table"><table><thead><tr><th>Veri</th><th>Amaç</th><th>Hukuki sebep (KVKK md. 5)</th></tr></thead><tbody><tr><td>Reklam verileri</td><td>Ücretsiz sürümün finansmanı</td><td>Açık rıza (onay formu, bulunduğun ülkede gerekiyorsa) veya meşru menfaat</td></tr><tr><td>Satın alma kaydı</td><td>Pro hakkının tanınması ve geri yüklenmesi</td><td>Sözleşmenin ifası</td></tr><tr><td>Çökme ve hata raporları</td><td>Hataların giderilmesi</td><td>Meşru menfaat</td></tr><tr><td>Kullanım istatistikleri</td><td>Uygulamanın geliştirilmesi</td><td>Meşru menfaat</td></tr></tbody></table></div>
 <h2>6. Yurt dışına aktarım</h2>
-<p>AdMob, RevenueCat ve Firebase hizmetlerinin sunucuları yurt dışında olabilir. Bu hizmetlerin işlediği veriler, ilgili sağlayıcıların güvenceleri kapsamında yurt dışına aktarılabilir.</p>
+<p>AdMob, RevenueCat, Firebase (Crashlytics, Analytics) ve Sentry hizmetlerinin sunucuları yurt dışında olabilir. Bu hizmetlerin işlediği veriler, ilgili sağlayıcıların güvenceleri kapsamında yurt dışına aktarılabilir.</p>
 <h2>7. Çocuklar</h2>
 <p>Uygulama 13 yaş altındaki çocuklara yönelik değildir.</p>
 <h2>8. Hakların (KVKK md. 11)</h2>
